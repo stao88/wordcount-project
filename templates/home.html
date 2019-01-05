@@ -1,0 +1,17 @@
+<h1>Mummy and Daddy!</h1>
+<h2>WORDCOUNT</h2>
+
+<form action = "{% url 'count' %}" > 
+	<textarea cols="40" rows="10" name="fulltext"></textarea>
+	<br />
+	<input type="submit"  value="count!"></input>
+	<br/>
+	
+</form>
+
+
+<form action = "{% url 'about' %}" > 
+	<input type="submit" value ="about"></input>
+</form>
+
+<a href="{%url 'about'%}">about page</a>
